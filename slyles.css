@@ -1,0 +1,14 @@
+button {
+  background-color: rgb(147, 147, 226);
+  width: 150px;
+  height: 75px;
+  border-radius: 15px;
+  font-size: 30px;
+  color: beige;
+  cursor: pointer;
+}
+button:active,
+button:focus {
+  outline: none;
+  background-color: rgb(23, 102, 4);
+}
