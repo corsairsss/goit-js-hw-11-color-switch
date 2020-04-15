@@ -28,7 +28,6 @@ const changeColor = {
     this.bodyColorId = setInterval(() => {
       const rand = randomIntegerFromInterval(0, 6);
       refs.body.style.backgroundColor = colors[rand];
-      console.log(rand);
     }, 1000);
   },
   stop() {
